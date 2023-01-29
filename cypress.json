@@ -1,0 +1,7 @@
+{"chromeWebSecurity":false,
+
+"env":{
+    "baseUrl": "www.google.com",
+    "faceBook": "https://www.facebook.com/"
+}
+}
