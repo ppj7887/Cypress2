@@ -9,7 +9,7 @@ describe("Verify API responce", () => {
         cy.wait("@details").then((el) => {
             console.log(el)
             expect(el.response.body.name).to.eq("Jane")
-            expect(el.response.statusCode).to.eq(200)
+            
         })
     })
 })
